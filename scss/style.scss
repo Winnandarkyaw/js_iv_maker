@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Padauk&display=swap');
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+$font-family-sans-serif:'Montserrat','Padauk',sans-serif;
+@import "../node_modules/bootstrap/scss/bootstrap";
+#rows tr:hover .del-btn{
+  display:block;
+}
+.del-btn{
+  display:none;
+}
+@media print{
+  .p-none{
+    display:none;
+  }
+}
